@@ -97,4 +97,4 @@ http.createServer((request, response) => {
         response.writeHead(200);
         response.end("{\"message\": \"ok\"}");
     });
-}).listen(7312, "127.0.0.1");
+}).listen(7312, "0.0.0.0");
